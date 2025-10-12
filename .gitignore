@@ -1,0 +1,16 @@
+# 忽略 UE 的内容文件夹（大文件，不要上传！）
+Content/
+
+# 忽略编译与临时文件
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# 可选：忽略 IDE 相关文件
+.vs/
+*.sln
+*.suo
+*.user
+
+# 你可以保留 Config/ 和 .uproject 文件
