@@ -6,7 +6,7 @@ Saved/             # 运行时自动生成的配置/日志等
 
 # ========== 2. 忽略 Content 下的资源文件（模型、贴图、蓝图逻辑等） ==========
 # 规则：Content 目录及其所有子目录下的 uasset/uexp/ubulk/uptnl 文件都忽略
-Content/**/*.(uasset|uexp|ubulk|uptnl)
+Content/**/*.{uasset,uexp,ubulk,uptnl}
 
 # ========== 3. 单独保留 umap 文件（不忽略） ==========
 # 规则：Content 目录及其所有子目录下的 umap 文件，取消上面的“忽略”规则
