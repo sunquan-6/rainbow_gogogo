@@ -19,3 +19,6 @@ Content/**/*.{uasset,uexp,ubulk,uptnl}
 *.opendb
 .idea/
 .vscode/
+*.uasset
+/Saved
+/Intermediate
